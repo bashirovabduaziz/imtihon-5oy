@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+		<link rel="stylesheet" href="./css/darkmode.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Finsweet</title>
+		
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__container">
+				<div class="header__nav">
+					<div class="header__logo">
+						<img src="./img/Logo.svg" alt="" class="header__img" />
+					</div>
+					<ul class="header__list">
+						<li class="header__link"><a href="./home.html" class="header__item">Home</a></li>
+						<li class="header__link"><a href="#" class="header__item">Blog</a></li>
+						<li class="header__link"><a href="#" class="header__item">About Us</a></li>
+						<li class="header__link"><a href="./index.html" class="header__item">Register</a></li>
+					</ul>
+					<button class="header__btn"><a href="./login.html" class="header__btn-item">Login</a></button>
+
+					<button onclick="myFunction()" class="icon"><i class="ri-moon-line"></i></button>
+				</div>
+			</div>
+		</header>
+		<div class="hero">
+			<img src="./img/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.png" alt="" class="hero__img" />
+			<div class="hero__text-all">
+				<p class="hero__text">Posted on <span class="hero__span1">startup</span></p>
+				<h1 class="hero__title">Step-by-step guide to choosing great font pairs</h1>
+				<p class="hero__date">By <span class="hero__span">James West</span> | May 23, 2022</p>
+				<p class="hero__p">
+					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident.
+				</p>
+				<button class="hero__btn">Read More <i class="ri-arrow-drop-right-line"></i></button>
+			</div>
+		</div>
+		<div id="postContainer">
+			<div class="post-card">
+				<img src="" alt="" class="post-img">
+				<p class="post-authorDate"></p>
+				<h1 class="post-title"></h1>
+				<p class="post-body"></p>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__right">
+					<p class="footer__text">Finstreet 118 2561 Fintown</p>
+					<p class="footer__text">Hello@finsweet.com 020 7993 2905</p>
+				</div>
+				<div class="footer__left">
+					<i class="ri-facebook-circle-fill footer__icon"></i>
+					<i class="ri-twitter-fill footer__icon"></i>
+					<i class="ri-instagram-fill footer__icon"></i>
+					<i class="ri-linkedin-box-fill footer__icon"></i>
+				</div>
+			</div>
+		</footer>
+		<script src="./js/index.js"></script>
+		<script>
+			// Render the posts on page load
+			window.addEventListener("load", async () => {
+				const posts = await getPosts();
+				renderPosts(posts);
+			});
+		</script>
+	</body>
+</html>
