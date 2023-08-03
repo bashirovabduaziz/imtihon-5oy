@@ -4,7 +4,7 @@
     &__container{
        margin: 0 auto;
        width: 1200px;
-      
+
     }
     &__register{
         align-items: center;
@@ -80,4 +80,29 @@ font-weight: 700;
 line-height: 32px;
 text-decoration: none;
     }
+}
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+    &__search {
+        color: var(--black, #232536);
+
+        /* Body 1 */
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        /* 175% */
+        border-radius: 2px;
+        border: 1px solid rgba(109, 110, 118, 0.50);
+        width: 1200px;
+        height: 60px;
+        margin-bottom: 20px;
+        transition: all 1s;
+    }
+   
 }

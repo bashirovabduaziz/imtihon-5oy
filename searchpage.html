@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Sen:wght@500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Sen:wght@500;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/darkmode.css" />
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/darkmode.css">
+    <script src="./js/search.js" defer></script>
+    <script src="./js/index.js"></script>
     <title>Finsweet</title>
 </head>
+
 <body>
     <header class="header">
         <div class="header__container">
             <div class="header__nav">
                 <div class="header__logo">
-                    <img src="./img/Logo.svg" alt="" class="header__img">
+                    <img src="./img/Logo.svg" alt="" class="header__img" />
                 </div>
                 <ul class="header__list">
                     <li class="header__link"><a href="./home.html" class="header__item">Home</a></li>
@@ -23,22 +28,33 @@
                     <li class="header__link"><a href="./index.html" class="header__item">Register</a></li>
                 </ul>
                 <button class="header__btn"><a href="./login.html" class="header__btn-item">Login</a></button>
-                
-                <button onclick="myFunction()" class="icon"><i class="ri-moon-line" ></i></button>
+
+                <button onclick="myFunction()" class="icon"><i class="ri-moon-line"></i></button>
             </div>
         </div>
     </header>
+    <div class="hero1">
+        <div class="hero1__container1">
+            <h1 class="hero1__title1">Business</h1>
+            <p class="hero1__text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore.</p>
+
+        </div>
+    </div>
     <main class="main">
-        <div class="main__container">
-            <div class="main__register">
-                <h1 class="main__title1">Login</h1>
-                <form action="#" class="main__form">
-                    <input type="text" placeholder="Username" required class="main__iput">
-                    <br>
-                    <input type="password" placeholder="password" required class="main__iput">
-                    <br>
-                    <button class="main__btn"><a href="./home.html" class="main__item">Login</a></button>
-                </form>
+
+        <form action="" id="searchForm">
+            <input type="text" placeholder="Searching ..." class="main__search" id="searchInput">
+        </form>
+        <div class="card">
+        <div id="postPhotosContainer">
+            
+            <img src="" alt="" class="img">
+            <div class="post-titles">
+                <h5 class="post-category1"></h5>
+                <p class="post-title1"></p>
+                <p class="post-body1"></p>
+            </div>
             </div>
         </div>
     </main>
@@ -46,7 +62,7 @@
         <div class="footer__container">
             <div class="footer__right">
                 <p class="footer__text">Finstreet 118 2561 Fintown</p>
-                <p class="footer__text">Hello@finsweet.com  020 7993 2905</p>
+                <p class="footer__text">Hello@finsweet.com 020 7993 2905</p>
             </div>
             <div class="footer__left">
                 <i class="ri-facebook-circle-fill footer__icon"></i>
@@ -56,8 +72,7 @@
             </div>
         </div>
     </footer>
-   <script src="./js/index.js">
-        
-    </script>
+
 </body>
+
 </html>

@@ -1,108 +1,163 @@
-.hero{
+.hero {
     width: 1200px;
     margin: 0 auto;
     margin-top: 100px;
     position: relative;
-    
-    &__img{
+
+    &__img {
         width: 1200px;
         z-index: -1;
     }
-    &__text-all{
+
+    &__text-all {
         position: absolute;
         bottom: 150px;
         left: 30px;
     }
-    &__text{
+
+    &__text {
         color: var(--light, #FFF);
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 20px; /* 125% */
-letter-spacing: 3px;
-text-transform: uppercase;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        /* 125% */
+        letter-spacing: 3px;
+        text-transform: uppercase;
     }
-    &__span1{
-        color: var(--light, #FFF);
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 900;
-line-height: 20px;
-letter-spacing: 3px;
-text-transform: uppercase;
 
-}
-    &__title{
+    &__span1 {
         color: var(--light, #FFF);
-
-/* Display */
-font-family: Sen;
-font-size: 56px;
-font-style: normal;
-font-weight: 700;
-line-height: 64px; /* 114.286% */
-letter-spacing: -2px;
-width: 703px;
-margin-top: 10px;
-    }
-    &__date{
-        color: var(--light, #FFF);
-
-/* Body 1 */
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px; /* 175% */
-margin-top: 10px;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 20px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
 
     }
-    &__span{
+
+    &__title {
+        color: var(--light, #FFF);
+
+        /* Display */
+        font-family: Sen;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 64px;
+        /* 114.286% */
+        letter-spacing: -2px;
+        width: 703px;
+        margin-top: 10px;
+    }
+
+    &__date {
+        color: var(--light, #FFF);
+
+        /* Body 1 */
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        /* 175% */
+        margin-top: 10px;
+
+    }
+
+    &__span {
         color: var(--yellow, #FFD050);
 
-/* Body 1 */
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px;
+        /* Body 1 */
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
 
     }
-    &__p{
+
+    &__p {
         color: var(--light, #FFF);
 
-/* Body 1 */
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px; /* 175% */
-width: 509px;
-margin-top: 10px;
+        /* Body 1 */
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        /* 175% */
+        width: 509px;
+        margin-top: 10px;
 
     }
-    &__btn{
+
+    &__btn {
         color: var(--black, #232536);
-font-family: Sen;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 24px; /* 133.333% */
-background: var(--yellow, #FFD050);
-display: inline-flex;
-padding: 16px 48px;
-align-items: flex-start;
-gap: 12px;
-border: none;
-cursor: pointer;
-margin-top: 20px;
-border: 3px solid #FFD050;
-transition: all 0.5s;
+        font-family: Sen;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        /* 133.333% */
+        background: var(--yellow, #FFD050);
+        display: inline-flex;
+        padding: 16px 48px;
+        align-items: flex-start;
+        gap: 12px;
+        border: none;
+        cursor: pointer;
+        margin-top: 20px;
+        border: 3px solid #FFD050;
+        transition: all 0.5s;
 
     }
-    &__btn:hover{
+
+    &__btn:hover {
         background-color: #FFF;
+    }
+}
+
+.hero1 {
+    width: 100%;
+    background: var(--lavender, #F4F0F8);
+    margin-top: 100px;
+    height: 250px;
+
+    .hero__container1 {
+        width: 1200px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    &__title1 {
+        color: var(--black, #232536);
+        text-align: center;
+        font-family: Sen;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: -2px;
+        position: absolute;
+        top: 150px;
+        left: 40%;
+    }
+
+    &__text1 {
+        color: var(--medium-grey, #6D6E76);
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        width: 500px;
+        position: absolute;
+        top: 230px;
+        left: 350px;
     }
 }

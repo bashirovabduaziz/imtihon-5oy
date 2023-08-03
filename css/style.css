@@ -91,7 +91,8 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 20px; /* 125% */
+  line-height: 20px;
+  /* 125% */
   letter-spacing: 3px;
   text-transform: uppercase;
 }
@@ -112,7 +113,8 @@
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 64px; /* 114.286% */
+  line-height: 64px;
+  /* 114.286% */
   letter-spacing: -2px;
   width: 703px;
   margin-top: 10px;
@@ -124,7 +126,8 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; /* 175% */
+  line-height: 28px;
+  /* 175% */
   margin-top: 10px;
 }
 .hero__span {
@@ -143,7 +146,8 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; /* 175% */
+  line-height: 28px;
+  /* 175% */
   width: 509px;
   margin-top: 10px;
 }
@@ -153,7 +157,8 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; /* 133.333% */
+  line-height: 24px;
+  /* 133.333% */
   background: var(--yellow, #FFD050);
   display: inline-flex;
   padding: 16px 48px;
@@ -167,6 +172,44 @@
 }
 .hero__btn:hover {
   background-color: #FFF;
+}
+
+.hero1 {
+  width: 100%;
+  background: var(--lavender, #F4F0F8);
+  margin-top: 100px;
+  height: 250px;
+}
+.hero1 .hero__container1 {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.hero1__title1 {
+  color: var(--black, #232536);
+  text-align: center;
+  font-family: Sen;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -2px;
+  position: absolute;
+  top: 150px;
+  left: 40%;
+}
+.hero1__text1 {
+  color: var(--medium-grey, #6D6E76);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  width: 500px;
+  position: absolute;
+  top: 230px;
+  left: 350px;
 }
 
 .main {
@@ -247,6 +290,28 @@
   font-weight: 700;
   line-height: 32px;
   text-decoration: none;
+}
+
+.main {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.main__search {
+  color: var(--black, #232536);
+  /* Body 1 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 175% */
+  border-radius: 2px;
+  border: 1px solid rgba(109, 110, 118, 0.5);
+  width: 1200px;
+  height: 60px;
+  margin-bottom: 20px;
+  transition: all 1s;
 }
 
 .footer {
